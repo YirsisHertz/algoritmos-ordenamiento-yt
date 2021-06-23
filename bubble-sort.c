@@ -25,7 +25,9 @@ void printArray(int valores[], int n)
 
 int main()
 {
-    int valores[] = { 15, 42, 3, 12, 4, 1 };
+
+    int valores[] = { 15, 42, 3, 12, 4, 1, 8, 98, 32, 123, 42, 1, 32, 3, 45, 9 };
+
     int n = sizeof(valores) / sizeof(valores[0]);
 
     printArray(valores, n);
